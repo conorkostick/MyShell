@@ -1,0 +1,39 @@
+
+CA 216 Shell Project
+--------------------
+
+Conor Mckeon
+17386616
+------------
+
+cd - Returns the PWD
+cd[+arg] - Moves the PWD to the directory specified
+cd .. - Moves the PWD backwards
+
+clr - Clears the screen
+
+dir - Lists the contents of the PWD
+dir[+arg] - Lists the contents of the directory specified
+The output of dir can be written into a file but only for the PWD. E.g. "dir > output.txt" but not "dir Documents > output.txt"
+
+environ - Lists all of the environment strings
+The output of environ can be written into a file
+
+echo[+arg] - Repeats the argument back to you, multiple spaces are reduced to one
+The output of echo can be written into a file, if so then multiple spaces are not reduced to one
+
+help - Brings up with manual, showing 20 lines at a time and allows you to continue by entering a space character
+
+pause - Pauses the shell, the shell will not read any commands until the enter key is pressed
+
+quit - Exits the shell
+
+------------------------------------------------------------------------------------------------------------------
+
+This shell can handle other program commands such as "python" or "grep"
+
+This shell can handle batchfiles on startup
+
+This shell supports the running of background processes when "&" is at the end of a command
+
+END OF HELP FILE
